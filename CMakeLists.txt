@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0)
 project(main C)
 
-option(CMAKE_VERBOSE_MAKEFILE OFF)
+option(CMAKE_VERBOSE_MAKEFILE "option for verbose" ON)
 
 aux_source_directory(uart UART)
 aux_source_directory(delay DELAY)
