@@ -1,6 +1,8 @@
 ## build
 
 ```bash
-mkdir out && cd out
-cmake -DCMAKE_TOOLCHAIN_FILE=cmake/compiler.cmake ..
+source build.sh
+prebuild <out dirctory> [ninja] #first for build
+build #build binary
+postbuild   #clean
 ```
