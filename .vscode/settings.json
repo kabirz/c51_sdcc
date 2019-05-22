@@ -1,0 +1,6 @@
+{
+    "cmake.configureArgs": [
+        "-DCMAKE_TOOLCHAIN_FILE=cmake/compiler.cmake",
+        // "-DCMAKE_VERBOSE_MAKEFILE=ON"
+    ],
+}
